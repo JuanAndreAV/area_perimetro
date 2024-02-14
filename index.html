@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap')
+        </style>
+    <title>Area y perimetro</title>
+</head>
+<body>
+    <div class="container">
+            <h1 class="protest-riot-regular">Area y Perímetro de figuras planas</h1>
+            <h3 class="protest-riot-regular color">Análisis y desarrollo de software 2024</h3>
+            <p class="protest-riot-regular color" id="juanito">Realizado por: <strong>Juan Andrés Alvarez Velásquez</strong></p>
+        <fieldset>
+            <label for="figuras">Selecciona la figura: </label><select name="figuras" id="figuras">
+                <option value="">selecciona</option>
+                <option value="0">triángulo</option>
+                <option value="1">rectángulo</option>
+                <option value="2">cuadrado</option>
+                <option value="3">circulo</option>
+            </select>
+            <label for="area_perimetro"></label><select name="area_perimetro" id="area_perimetro">
+                <option value="">Selecciona</option>
+                <option value="area">Area</option>
+                <option value="perimetro">Perímetro</option>
+            </select>
+            <br>
+            <div id="contenido1"></div>
+            <hr>
+            <div id="contenido">
+
+            </div>
+            <hr>
+            <button id="calcular">Calcular</button>
+            <br>
+            <p id="resultado"></p>
+        </fieldset>
+        
+    </div>
+    
+    <script src="./area_perimetro.js"></script>
+</body>
+</html>
