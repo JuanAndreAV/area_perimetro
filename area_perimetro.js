@@ -1,4 +1,3 @@
-
 let a, b, c, resultado, operacion;
 
 let boton = document.getElementById("calcular");
